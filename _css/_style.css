@@ -1,14 +1,15 @@
 
 /*	CABEÇALHO	*/ /**/
 .cabecalho {
+	/*Nesta parte eu defino a layout e cor do meu cabeçalho*/
 	margin-top: -8px;
 	width: 100%;
 	float: left;
-	/*Preenchimento de 50px no top e bot e 8 nos lados*/
 	background-color: #e20b00;
 }
 
 .logo a{
+	/* Aqui estou estilizando o link com a minha "logo"*/
 	width: 236px;
 	height: 236px;
 	float: left;
@@ -19,6 +20,7 @@
 }
 
 .slogan{
+	/*Aqui eu defino minhas propriedades do slogan*/
 	width: 30%;
 	float: left;
 	padding-top: 30px;
@@ -27,6 +29,7 @@
 
 /*	MENU	*/ /**/
 .menu{
+	/*Nesta parte eu defino a estilização do meu nav pra fazer um header bonito*/
 	width: 100%;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -42,6 +45,7 @@
 }
 
 .menu li a{
+	/*Nesta parte estou definindo os links do menu*/
 	color: #9d9d9d;
 	margin: 25px;
 	text-decoration:none;
@@ -49,6 +53,7 @@
 }
 
 .menu li a:hover {
+	/* Aqui eu só defino que a cor mude quando eu passar o mouse no link*/
 	color: #fff;
 }
 
@@ -73,12 +78,14 @@
 main
 
 .principal{
+	/* Definindo meu conteudo principal*/
 	width: 100% ;
 	float: left ;
 	padding: 20px ;
 }
 
 .principal p{
+	/*Estilizando meus paragrafos*/
 	padding-left: 50px;
 	padding-right: 50px;
 	font-size: 25px;
@@ -86,19 +93,23 @@ main
 }
 
 .principal h2{
+	/*Alinhando meu titulo, pra ficar menos colado da tela*/
 	padding-left: 20px;
 }
 
 .principal img{
-	 display: block;
+	/* Aqui estou centralizando minhas imagens*/
+	display: block;
   	margin: 5px auto;
 }
 
 .sobre{
+	/*Aqui eu deixo meu footer flutuante*/
 	float: left;
 }
 
 .sobre h2{
+	/*Descolando meu titulo dos cantos da página*/
 	margin-bottom: 15px;
 }
 
@@ -106,12 +117,14 @@ main
 /*	RODAPÉ	*/ /**/
 
 .rodape{
+	/* Estilizando meu rodapé*/
 	width: 100%;
 	float: left;
 	background-color: #111;
 }
 
 .rodape p {
+	/* Colocando meu paragrafo mais vistoso*/
 	float: left;
 	color: #fff;
 	padding-left: 15px;
@@ -119,7 +132,7 @@ main
 
 }
 .rodape a{
-
+	/* Aqui eu estilizo meu icone para subir pra cima*/
 	color: #fff;
 	float: right;
 	padding-top: 25px;

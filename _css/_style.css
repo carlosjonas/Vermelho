@@ -1,0 +1,128 @@
+
+/*	CABEÇALHO	*/ /**/
+.cabecalho {
+	margin-top: -8px;
+	width: 100%;
+	float: left;
+	/*Preenchimento de 50px no top e bot e 8 nos lados*/
+	background-color: #e20b00;
+}
+
+.logo a{
+	width: 236px;
+	height: 236px;
+	float: left;
+	background: url(../_img/logo.jpg) no-repeat;
+	font-size: 0;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+.slogan{
+	width: 30%;
+	float: left;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+/*	MENU	*/ /**/
+.menu{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: left;
+	background-color: #111;
+}
+
+.menu li{
+	/*esse float no li serve para os links ficarem na horizontal*/
+	float: left;
+	/* esse list-style faz com que a lista fique sem bolinhas*/
+	list-style-type: none;
+}
+
+.menu li a{
+	color: #9d9d9d;
+	margin: 25px;
+	text-decoration:none;
+	font-size: 20px;
+}
+
+.menu li a:hover {
+	color: #fff;
+}
+
+/*	SOCIAL-ICONS	*/ /**/
+
+.social-icons{
+	/* Aqui eu fiz os icones irem pra esquerda*/
+	float: right;
+	padding-right: 15px;
+}
+
+.social-icons a{
+	/* Neste eu estilizei os links e espacei*/
+	color: #fff;
+	float: left;
+	margin-left: 12px;
+
+}
+
+/*	PRINCIPAL	*/ /**/
+
+main
+
+.principal{
+	width: 100% ;
+	float: left ;
+	padding: 20px ;
+}
+
+.principal p{
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 25px;
+	text-align: justify;
+}
+
+.principal h2{
+	padding-left: 20px;
+}
+
+.principal img{
+	 display: block;
+  	margin: 5px auto;
+}
+
+.sobre{
+	float: left;
+}
+
+.sobre h2{
+	margin-bottom: 15px;
+}
+
+
+/*	RODAPÉ	*/ /**/
+
+.rodape{
+	width: 100%;
+	float: left;
+	background-color: #111;
+}
+
+.rodape p {
+	float: left;
+	color: #fff;
+	padding-left: 15px;
+	font-size: 20px;
+
+}
+.rodape a{
+
+	color: #fff;
+	float: right;
+	padding-top: 25px;
+	padding-right: 10px;
+
+}
